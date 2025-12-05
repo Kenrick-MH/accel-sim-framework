@@ -81,6 +81,9 @@ L1ON:
 L1OFF:
     extra_params: "-gmem_skip_L1D 1"
 
+CLUSTER8:
+    extra_params: "-gpgpu_n_cores_per_cluster 8"
+
 COPYK:
     extra_params: "-perf_sim_memcpy 1"
 
